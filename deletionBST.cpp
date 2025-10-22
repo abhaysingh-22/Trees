@@ -87,7 +87,7 @@ int main() {
     cout << "After deleting 3: ";
     inorder(root);
     cout << endl;
-
+ 
     // Case 4: Delete root node (5)
     root = deleteBST(root, 5);
     cout << "After deleting root 5: ";
